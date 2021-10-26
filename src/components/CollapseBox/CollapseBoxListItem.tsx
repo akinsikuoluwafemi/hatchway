@@ -87,7 +87,7 @@ const  CollapseBoxListItem: React.FC<CollapseBoxListItemProps> = ({student}) => 
                       <p>Email: { student.email}</p>
                       <p>Company: { student.company}</p>
                       <p>Skill: { student.skill}</p>
-                    <p>Average: {getAverage(student.grades).toFixed(2)}%</p>
+                    <p>Average : {getAverage(student.grades).toFixed(2)}%</p>
                   </div>
             
 
